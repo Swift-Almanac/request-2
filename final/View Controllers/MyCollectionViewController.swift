@@ -32,7 +32,7 @@ class MyCollectionViewController: UICollectionViewController, UICollectionViewDe
         headerHeight = 16 + mainPicSize
         twoImageSize = (screenWidth - imageBorder) / 2
         threeImageSize = (screenWidth - (2 * imageBorder)) / 3
-
+        
         self.clearsSelectionOnViewWillAppear = false
     
         
