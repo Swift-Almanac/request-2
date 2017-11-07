@@ -14,6 +14,7 @@
 		BE6E4F8D1F942D3D001BE33F /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6E4F8C1F942D3D001BE33F /* MyViewController.swift */; };
 		BE6E4F8F1F942D76001BE33F /* default.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE6E4F8E1F942D76001BE33F /* default.xib */; };
 		BE6E4F911F943232001BE33F /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6E4F901F943232001BE33F /* MyData.swift */; };
+		BEDE99161FAA950E0079A43D /* MyViewController + UIPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE99151FAA950E0079A43D /* MyViewController + UIPickerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BE6E4F8C1F942D3D001BE33F /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		BE6E4F8E1F942D76001BE33F /* default.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = default.xib; sourceTree = "<group>"; };
 		BE6E4F901F943232001BE33F /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		BEDE99151FAA950E0079A43D /* MyViewController + UIPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyViewController + UIPickerDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				BE6E4F8E1F942D76001BE33F /* default.xib */,
 				BE6E4F741F942CD9001BE33F /* AppDelegate.swift */,
 				BE6E4F871F942CFE001BE33F /* View Controllers */,
+				BEDE99141FAA94F10079A43D /* Extensions */,
 				BE6E4F861F942CF3001BE33F /* Models */,
 			);
 			path = final;
@@ -84,6 +87,14 @@
 				BE6E4F8C1F942D3D001BE33F /* MyViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BEDE99141FAA94F10079A43D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BEDE99151FAA950E0079A43D /* MyViewController + UIPickerDelegate.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 				BE6E4F891F942D1B001BE33F /* MyCollectionViewController.swift in Sources */,
 				BE6E4F751F942CD9001BE33F /* AppDelegate.swift in Sources */,
 				BE6E4F8D1F942D3D001BE33F /* MyViewController.swift in Sources */,
+				BEDE99161FAA950E0079A43D /* MyViewController + UIPickerDelegate.swift in Sources */,
 				BE6E4F911F943232001BE33F /* MyData.swift in Sources */,
 				BE6E4F8B1F942D2B001BE33F /* MyCollectionViewCell.swift in Sources */,
 			);
@@ -282,11 +294,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WD65G8C4YP;
 				INFOPLIST_FILE = final/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftalmanac.final;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -297,11 +310,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WD65G8C4YP;
 				INFOPLIST_FILE = final/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftalmanac.final;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

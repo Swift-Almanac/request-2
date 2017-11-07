@@ -6,7 +6,7 @@
 //  Copyright © 2017 Mark Hoath. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 enum Mode {
     case add
@@ -18,5 +18,7 @@ struct MyData {
     var name: String = ""
     var age: Int = 18
     var gender: Bool = false // false = male, true = female
+    var tags: [String] = []
+    var theImages: [UIImage] = []
 }
 

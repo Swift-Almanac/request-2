@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         let flowLayout = UICollectionViewFlowLayout()
+        flowLayout.scrollDirection = .vertical
         
         let myCollectionVC = MyCollectionViewController(collectionViewLayout: flowLayout)
         let navController = UINavigationController(rootViewController: myCollectionVC)
